@@ -57,7 +57,6 @@
   background: white;
   padding: 0 20px;
   float: left;
-  font-size: 16px;
   font-size: 1rem;
   margin-top: -1px;
   width: 100%;
@@ -78,7 +77,6 @@
 .cable {
 	float: left;
   width: 100%;
-  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
   border-collapse: collapse;
@@ -172,7 +170,6 @@
 }
 
 #bigboi {
-	font-size: 150px;
 	font-family: sans-serif;
   font-weight: bolder;
   color: white;
@@ -199,20 +196,11 @@
 }
 
 .butt {
-	width: 30%;
-	height: 100px;
-  font-size: 50px;
+	
 }
 
 .sick{
   color:red;
-}
-
-.three{
-  color:red;
-  font-size: 200px;
-  font-family: sans-serif;
-  font-weight: bolder;
 }
 
 .stuff{
@@ -240,7 +228,6 @@
 #setbet {
   background-color: black;
   color: white;
-  font-size: 100px;
   width: 100%;
   height: 60%;
   text-align: center;
@@ -251,12 +238,6 @@
   padding: 0;
 }
 
-.numbox {
-  height: 100px;
-  width: 300px;
-  font-size: 80px;
-}
-
 #stackwork {
   width: 100%;
   font-size: 30px;
@@ -264,15 +245,8 @@
   margin-right: 0;
 }
 
-.butt2 {
-  width: 20%;
-  height: 3%;
-  font-size: 30px;
-}
-
 .stats {
   color: white;
-  font-size: 80px;
   width: 100%;
   text-align: left;
   margin-top: 40px;
@@ -308,7 +282,54 @@
   float: right;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 450px) {
+  #drive {
+    font-size: 70px;
+  }
+  #points {
+    font-size: 70px;
+  }
+  #myBar {
+    height: 70px;
+  }
+  .tabs .tab-label {
+    font-size: 52px;
+  }
+  .tabs .tab-content {
+    font-size: 16px;
+  }
+  .cable {
+    font-size: 50px;
+  }
+  #bigboi {
+    font-size: 150px;
+  }
+  .butt {
+    font-size: 50px;
+    width: 30%;
+    height: 100px;
+  }
+  #setbet {
+    font-size: 100px;
+  }
+  .numbox {
+    height: 100px;
+    width: 300px;
+    font-size: 80px;
+  }
+  .stats {
+    font-size: 80px;
+  }
+  .history {
+    font-size: 50px;
+  }
+  .remove {
+    font-size: 50px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
   #drive {
     font-size: 30px;
   }
@@ -316,6 +337,39 @@
     font-size: 30px;
   }
   #myBar {
-    height0px;
+    height: 30px;
+  }
+  .tabs .tab-label {
+    font-size: 25px;
+  }
+  .cable {
+    font-size: 25px;
+  }
+  #bigboi {
+    font-size: 75px;
+  }
+  .butt {
+    font-size: 25px;
+    width: 15%;
+    height: 50px;
+  }
+  #setbet {
+    font-size: 50px;
+  }
+  .numbox {
+    height: 50px;
+    width: 150px;
+    font-size: 40px;
+  }
+  .stats {
+    font-size: 40px;
+  }
+  .history {
+    font-size: 25px;
+  }
+  .remove {
+    font-size: 25px;
+    width: 35px;
   }
 }
+
