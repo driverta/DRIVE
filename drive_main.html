@@ -5,7 +5,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 	</head>
 <body ng-app="myApp" id="jaunt">	
-	<div ng-controller="buttons">
+	<div id="jaunt2" ng-controller="buttons">
 		<table id="header">
 			<tr>
 				<th>
@@ -24,6 +24,22 @@
   			<div id="myBar" ng-style="{width : progress};"></div>
 		</div>
 		
+		<span id="xtable">
+			
+			<table id="xhead2" >
+				<caption>MY LIFTS</caption>
+				<tr>
+					<th>BENCH</th>
+				</tr>
+				<tr>
+					<th>SQUAT</th>
+				</tr>
+				<tr>
+					<th>DEADLIFT</th>
+				</tr>
+			</table>
+		</span>
+
 		<div class="tabs" >
 		
 
@@ -266,10 +282,12 @@
 					</div>
 				</div>
 			</div>
-
-			
 		</div>
-
+		<div id="bottomdaddy">
+			<div id="bottomboi">
+				<input type="button" id="myLifts" onclick="addSet();" ng-click="refresh();changeTotals()" value="MY LIFTS">
+			</div>
+		</div>
 	</div>
 
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>

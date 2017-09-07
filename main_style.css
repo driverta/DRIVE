@@ -7,6 +7,7 @@
   font-size: 0;
   margin: 25px 0;
   text-align: center;
+  width: 80%;
 }
 
 .tabs:after {
@@ -195,27 +196,19 @@
 	text-align: center;
 }
 
-.butt {
-	
-}
-
 .sick{
   color:red;
 }
 
-.stuff{
-  text-align: center;
+#jaunt{
+  background-color: black;
+  height: 100%;
   width: 100%;
 }
 
-#jaunt{
-  background-color: black;
-}
-
-.fart {
-  width: 100%;;
-  font-size: 30px;
-  margin-top: 20px;
+#jaunt2 {
+  height: 100%;
+  width: 100%;
 }
 
 #drive {
@@ -327,6 +320,12 @@
     font-size: 50px;
     width: 70px;
   }
+  #xtable {
+    display: none;
+  }
+  .tabs {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -371,5 +370,47 @@
     font-size: 25px;
     width: 35px;
   }
+  .tabs {
+    float: right;
+  }
+  #xtable {
+    display: inline;
+  }
 }
 
+#xhead2 {
+  color: white;
+  text-align: center;
+  width: 20%;
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#xhead2 caption {
+  font-size: 35px;
+  margin-top: 20px
+}
+
+#xhead2 th {
+  padding: 10px;
+}
+
+#myLifts {
+  width: 30%;
+  height: 100px;
+  font-size: 50px;
+  float: right;
+}
+
+#bottomboi {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#bottomdaddy {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
